@@ -1,0 +1,13 @@
+  
+#include "Researcher.hpp"
+#include "Player.hpp"
+#include "Board.hpp"
+#include "City.hpp"
+#include "Color.hpp"
+
+using namespace std;
+using namespace pandemic;
+
+Researcher& Researcher::discover_cure(Color){
+    return *this;
+}
